@@ -1,0 +1,33 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/malayswap-frontend-development/node_modules
+/malayswap-frontend-development/.pnp
+.pnp.js
+
+# testing
+/malayswap-frontend-development/coverage
+
+# next.js
+/malayswap-frontend-development/.next/
+/malayswap-frontend-development/out/
+.idea/
+
+# production
+/malayswap-frontend-development/build
+
+# misc
+.DS_Store
+.eslintcache
+
+# local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+debug.log*
